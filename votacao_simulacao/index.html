@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulação de Sistema de Votação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sistema de Votação Simples</h1>
+        <div id="menu">
+            <h2>Escolha uma opção:</h2>
+            <button onclick="votar(1)">1. Votar em Candidato A</button>
+            <button onclick="votar(2)">2. Votar em Candidato B</button>
+            <button onclick="votar(3)">3. Votar em Candidato C</button>
+            <button onclick="votar(4)">4. Votar em Candidato D</button>
+            <button onclick="mostrarResultado()">5. Mostrar Resultado</button>
+            <button onclick="sair()">6. Sair (Simulado)</button>
+        </div>
+        <div id="resultado" style="display: none;">
+            <h2>Resultado da Votação</h2>
+            <p id="resultado-texto"></p>
+            <button onclick="voltarMenu()">Voltar ao Menu</button>
+        </div>
+        <div id="mensagem" style="margin-top: 15px;"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
