@@ -67,8 +67,17 @@ Este documento serve como base para o desenvolvimento e validação do sistema.
 
 ## Contribuições
 
-Este projeto foi desenvolvido como uma demonstração de um sistema de votação simples. Contribuições são bem-vindas através de pull requests.
+Este projeto foi desenvolvido como uma demonstração de um sistema de votação simples para fins acadêmicos.
 
 ## Licença
 
 Este projeto está disponível sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+### Projeto com simulação de votação simples utilizando Java (back-end) e HTML/CSS (front-end).
+
+🔗 [Acesse a aplicação online](https://erikacls.github.io/sistema_votacao/)
+
+## Tecnologias
+- Java
+- HTML, CSS e JS
+- GitHub Pages para hospedagem
